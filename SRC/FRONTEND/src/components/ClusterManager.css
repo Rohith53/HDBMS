@@ -1,0 +1,44 @@
+.cluster-manager {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+h2, h3 {
+    margin-bottom: 10px;
+}
+
+.loading {
+    color: blue;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+.create-cluster input {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+}
+
+.existing-clusters ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.existing-clusters li {
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

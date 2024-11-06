@@ -1,0 +1,162 @@
+/* SQLInterface.css */
+
+.sql-interface {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.loading {
+    text-align: center;
+    font-size: 1.2em;
+    color: #007bff;
+}
+
+.error {
+    color: #ff4d4f;
+    background-color: #ffe5e5;
+    border: 1px solid #ffccc7;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.table-management {
+    margin-bottom: 20px;
+}
+
+.table-management h3 {
+    color: #333;
+}
+
+.table-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.table-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.delete-button {
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #d43f3a;
+}
+
+.create-table {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.create-table input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.create-table button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.create-table button:hover {
+    background-color: #0056b3;
+}
+
+.query-execution {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.query-execution h3 {
+    margin-top: 0;
+    color: #555;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+}
+
+textarea::placeholder {
+    color: #aaa;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+h4 {
+    margin-top: 20px;
+    color: #333;
+}
+
+.response {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    overflow: auto;
+    white-space: pre-wrap; /* Allows for wrapping of long lines */
+}
+
+@media (max-width: 600px) {
+    .sql-interface {
+        padding: 15px;
+    }
+
+    .create-table {
+        flex-direction: column;
+    }
+
+    .create-table input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

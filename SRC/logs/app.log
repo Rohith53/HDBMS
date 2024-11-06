@@ -1,0 +1,13 @@
+2024-11-06T05:57:32.992Z [ERROR]: Uncaught Exception: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and 'E:\HDBMS\SRC\SERVER\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+2024-11-06T12:07:55.692Z [ERROR]: Uncaught Exception: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and 'E:\HDBMS\SRC\SERVER\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+2024-11-06T12:12:22.529Z [ERROR]: Uncaught Exception: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and 'E:\HDBMS\SRC\SERVER\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+2024-11-06T12:16:43.950Z [ERROR]: Uncaught Exception: body is not defined
+2024-11-06T12:24:47.406Z [ERROR]: Uncaught Exception: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and 'E:\HDBMS\SRC\SERVER\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+2024-11-06T12:25:29.192Z [ERROR]: Uncaught Exception: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and 'E:\HDBMS\SRC\SERVER\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+2024-11-06T12:28:59.504Z [ERROR]: Uncaught Exception: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and 'E:\HDBMS\SRC\SERVER\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.

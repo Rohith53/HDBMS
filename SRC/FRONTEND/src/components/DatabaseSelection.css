@@ -1,0 +1,53 @@
+.database-selection {
+    text-align: center;
+    padding: 20px;
+}
+
+.database-selection h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.database-selection p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #666;
+}
+
+.db-button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.sql-button {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.sql-button:hover {
+    background-color: #0056b3;
+}
+
+.nosql-button {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.nosql-button:hover {
+    background-color: #1e7e34;
+}
+
+.cluster-button {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.cluster-button:hover {
+    background-color: #e0a800;
+}
